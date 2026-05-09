@@ -1,1 +1,124 @@
+Salesforce Summer Program – Day 2
+
+What is an Object?
+
+- An Object in Salesforce is used to store data.
+- It is similar to a table in a database.
+- Objects contain records and fields.
+
+Example:
+Student Object
+- Name
+- Roll Number
+- Branch
+
+------------------------------------------------------------
+
+Difference between Record and Field
+
+Field
+- A single piece of information
+- Similar to a column
+
+Examples:
+- Name
+- Email
+- Phone Number
+
+Record
+- A complete set of data
+- Similar to a row
+
+Example:
+- Name: Ravi
+- Roll Number: 101
+- Branch: CSE
+
+------------------------------------------------------------
+
+Difference between Lookup and Master-Detail
+
+Lookup Relationship
+- Creates a simple connection between objects
+- Parent and child can exist separately
+- Child record is not deleted with parent
+
+Master-Detail Relationship
+- Creates a strong connection between objects
+- Child depends on parent
+- Child record is deleted when parent is deleted
+
+------------------------------------------------------------
+
+Screenshots from Trailhead
+https://1drv.ms/i/c/fdaaf176355ac690/IQCOkCDsuJI0Tq2D-TfHGKX0AYhfp2ngXUWkQlUWoQmFNZ4?e=9YDsy3
+https://1drv.ms/i/c/fdaaf176355ac690/IQD3pbpeQhF4Q51oETD6QGHSAW_7vfw8_-FJBg1SkvP4vho?e=Z4lbkX
+https://1drv.ms/i/c/fdaaf176355ac690/IQBuj33etqdARJnuSfEXZI3CASSHL_-cvXoUmv4zg8hlyLw?e=KU53Jw
+------------------------------------------------------------
+
+1. Difference between Standard and Custom Objects
+
+Standard Objects
+- Already provided by Salesforce
+- Used for common business data
+
+Examples:
+- Account
+- Contact
+
+Custom Objects
+- Created by users
+- Used for custom business needs
+
+Examples:
+- Student
+- Attendance
+
+------------------------------------------------------------
+
+2. What is a Record?
+
+- A record is a collection of related data in an object.
+- Similar to a row in a table.
+
+Example:
+- Name: Tejasree
+- Roll Number: 21
+
+------------------------------------------------------------
+
+3. What is a Lookup Relationship?
+
+- A Lookup Relationship connects two objects.
+- It creates a loose relationship between records.
+- Both records can exist independently.
+
+------------------------------------------------------------
+
+4. What is a Master-Detail Relationship?
+
+- A Master-Detail Relationship creates a strong connection between objects.
+- Child records depend on parent records.
+- Deleting parent also deletes child records.
+
+------------------------------------------------------------
+
+5. Why are relationships important in databases?
+
+- Relationships connect related data.
+- Help organize information properly.
+- Reduce duplicate data.
+- Make data management easier.
+
+------------------------------------------------------------
+
+College Management System Objects
+
+- Student
+- Faculty
+- Course
+- Attendance
+- Fees
+- Examination
+```
 
