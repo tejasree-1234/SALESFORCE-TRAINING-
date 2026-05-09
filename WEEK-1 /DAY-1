@@ -1,0 +1,75 @@
+Salesforce Summer Program – Day 1
+
+  1. What problem does Salesforce solve?
+
+- Helps companies manage customer data in one platform
+- Improves communication between teams and customers
+- Automates business processes and daily tasks
+- Tracks sales, customer support, and marketing activities
+- Reduces manual work and data duplication
+- Improves customer satisfaction and business growth
+
+------------------------------------------------------------
+
+2. What is
+  CRM?
+
+- CRM stands for Customer Relationship Management
+- Used to manage customer interactions and business relationships
+- Stores customer information securely
+- Helps track sales and support activities
+- Improves communication with customers
+- Helps businesses increase sales and customer satisfaction
+
+------------------------------------------------------------
+
+3. What is an Object in Salesforce? Give one example.
+
+- An Object is like a database table in Salesforce
+- Used to store and organize data
+- Contains records and fields
+- Helps manage different types of information
+
+Example:
+Student Object
+- Student Name
+- Roll Number
+- Branch
+- Email
+
+------------------------------------------------------------
+
+4. Difference between Salesforce Admin and Developer
+
+Salesforce Admin
+- Manages users and permissions
+- Creates reports and dashboards
+- Configures Salesforce without coding
+- Maintains data and security
+- Automates workflows using tools
+
+Salesforce Developer
+- Writes code using Apex
+- Builds custom applications
+- Develops Lightning Web Components
+- Creates integrations with other systems
+- Implements advanced automation
+
+-------------------------------------------------------------------------
+5. Suggest one real-world application that can be built using Salesforce.
+
+College Management System
+
+Features:
+- Student management
+- Attendance tracking
+- Faculty management
+- Fee management
+- Exam result management
+- Notifications and reports
+- Secure cloud-based data storage
+
+
+Screenshots
+https://1drv.ms/i/c/fdaaf176355ac690/IQBRhpJDoJWuRpKVJJ2MIi8hAbo6ig-6GhTiRE-a-4nCQ4o?e=lemQV3
+https://1drv.ms/i/c/fdaaf176355ac690/IQBRhpJDoJWuRpKVJJ2MIi8hAbo6ig-6GhTiRE-a-4nCQ4o?e=ellhvS
