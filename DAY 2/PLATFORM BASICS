@@ -1,0 +1,158 @@
+Salesforce Summer Program – Day 2
+
+What is Salesforce Platform?
+
+Salesforce Platform is a cloud-based platform used to build CRM applications and business solutions.
+
+It helps users:
+- Store and manage data
+- Create applications
+- Automate business processes
+- Manage customer information
+- Build custom solutions
+
+--------------------------------------------------
+
+What is an App in Salesforce?
+
+An App is a collection of tabs, objects, and features used for a specific business purpose.
+
+Examples:
+- Sales App
+- Service App
+- College Management App
+
+Apps help users access related tools in one place.
+
+--------------------------------------------------
+
+What is an Object?
+
+An Object is like a database table used to store data.
+
+Examples:
+- Account
+- Contact
+- Opportunity
+- Student
+
+Objects contain records and fields.
+
+--------------------------------------------------
+
+What is a Tab?
+
+A Tab is used to open and access objects or features in Salesforce.
+
+Examples:
+- Accounts Tab
+- Contacts Tab
+- Reports Tab
+
+Tabs help users navigate easily.
+
+--------------------------------------------------
+
+Difference Between App and Object
+
+App:
+- Collection of features and tabs
+- Used for navigation
+- Contains multiple objects
+
+Object:
+- Stores data
+- Contains fields and records
+- Used to manage information
+
+--------------------------------------------------
+
+Configuration vs Coding
+
+Configuration:
+Building features using clicks without programming.
+
+Examples:
+- Creating fields
+- Validation rules
+- Reports
+- Workflows
+
+Used when:
+- Simple automation is needed
+- Business rules are simple
+- Easy customization is enough
+
+Coding (Apex):
+Used for advanced functionality and complex logic.
+
+Examples:
+- Custom automation
+- API integrations
+- Complex calculations
+- Custom applications
+
+Used when:
+- Advanced business logic is needed
+- External systems must connect
+- Complex functionality is required
+
+--------------------------------------------------
+
+What is Multi-Tenant Architecture?
+
+Multi-tenant architecture means multiple companies use the same Salesforce platform while keeping their data secure and separate.
+
+Benefits:
+- Low cost
+- Easy updates
+- Shared infrastructure
+- Better security
+
+--------------------------------------------------
+
+How Salesforce Developers Extend Functionality
+
+Developers extend Salesforce using:
+- Apex
+- Lightning Components
+- APIs
+- Custom applications
+- Integrations
+--------------------------------------------------
+
+System Design – College Management System
+
+App Name:
+College Management App
+
+Objects:
+- Student
+- Faculty
+- Course
+- Attendance
+- Fees
+- Department
+
+User Interaction:
+- Students view attendance and courses
+- Faculty manage marks and attendance
+- Admin manages admissions and fees
+
+--------------------------------------------------
+
+Trailhead Screenshots
+
+https://1drv.ms/i/c/fdaaf176355ac690/IQCaHgLzPx5rSpd_DO-rtY_8AY9jkryv8zJdkFFapJ99I40?e=K6q2p3
+
+--------------------------------------------------
+
+Learnings
+
+Today I learned:
+- Salesforce platform structure
+- Difference between App, Object, and Tab
+- Configuration vs Coding
+- Multi-tenant architecture
+- How developers build applications in Salesforce
+
