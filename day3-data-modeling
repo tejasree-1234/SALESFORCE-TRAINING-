@@ -1,0 +1,148 @@
+
+Day 3 – Data Modeling
+
+Difference Between
+
+App
+- Collection of related tabs, objects and features
+- Helps users work on a specific business process
+- Example: Sales App, Service App
+
+Object
+- Used to store business data in Salesforce
+- Similar to a table in a database
+- Contains records and fields
+
+Record
+- Single data entry inside an object
+- Similar to one row in a table
+- Example: One student record
+
+Field
+- Stores specific information about a record
+- Similar to a column in a table
+- Example: Name, Email, Age
+
+Standard vs Custom Objects
+
+Standard Objects
+- Already provided by Salesforce
+- Used for common business processes
+- Examples:
+  - Account
+  - Contact
+  - Opportunity
+
+Custom Objects
+- Created by users according to business needs
+- Helps build custom applications
+- Examples:
+  - Student
+  - Faculty
+  - Course
+  - Department
+
+College Management System
+
+Objects
+- Student
+- Faculty
+- Course
+- Department
+
+Relationships
+- One Department can contain many Faculties
+- One Department can contain many Courses
+- One Course can contain many Students
+- Faculties can teach multiple Courses
+
+Why Relationships are Important
+- Connects related data together
+- Helps avoid duplicate information
+- Makes data easy to track and manage
+- Improves reporting and automation
+
+Formula Fields
+
+Full Name
+- Combines First Name and Last Name automatically
+- Reduces manual work
+- Maintains consistency
+
+Remaining Seats
+- Calculates available seats automatically
+- Helps avoid overbooking
+- Updates dynamically
+
+Percentage
+- Calculates marks percentage automatically
+- Saves time for users
+- Reduces calculation mistakes
+
+Attendance Percentage
+- Calculates student attendance automatically
+- Helps track eligibility
+
+Faculty Experience
+- Calculates years of experience automatically
+
+Why Formula Fields are Useful
+- Eliminates repetitive calculations
+- Saves time
+- Reduces human errors
+- Provides real-time values automatically
+
+Validation Rules
+
+Email cannot be empty
+- Prevents missing contact details
+- Ensures communication is possible
+
+Age cannot be negative
+- Prevents invalid student records
+- Maintains correct data quality
+
+Seats cannot exceed limit
+- Prevents enrolling more students than capacity
+- Maintains proper course management
+
+Phone Number must contain 10 digits
+- Prevents invalid phone numbers
+- Improves data accuracy
+
+Marks cannot exceed 100
+- Prevents incorrect marks entry
+- Ensures proper grading data
+
+Why Validation Rules are Important
+- Blocks invalid data entry
+- Maintains clean database records
+- Improves data consistency
+- Reduces future business problems
+
+Reflection
+
+Why companies need structured data instead of spreadsheets
+- Structured data is easier to organize
+- Helps connect related information
+- Improves reporting and analytics
+- Supports automation and workflows
+- Reduces duplicate and inconsistent data
+- Provides better security and access control
+- Makes large-scale business operations easier
+
+Problems with Excel Sheets
+- Difficult to manage huge data
+- Higher chance of duplicate records
+- No proper relationships between data
+- Hard to track updates
+- Difficult for multiple users to work together
+
+Why Salesforce is Metadata-Driven
+- Most customization works without coding
+- Objects, fields and rules are configurable
+- Businesses can change applications easily
+- Faster development and maintenance
+```
+screenshots
+https://1drv.ms/i/c/fdaaf176355ac690/IQCOkCDsuJI0Tq2D-TfHGKX0AYhfp2ngXUWkQlUWoQmFNZ4?e=dFlCcl
