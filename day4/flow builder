@@ -1,0 +1,100 @@
+Day 4 – Flow Builder & Automation
+
+What is Flow Builder?
+Flow Builder is a Salesforce no-code automation tool used to automate business processes and reduce manual work.
+
+--------------------------------------------------
+
+Types of Flows
+
+Screen Flow
+- Requires user interaction
+- Uses forms/screens
+- Example: Student registration form
+
+Record Triggered Flow
+- Runs automatically
+- No user interaction needed
+- Example: Auto email after registration
+
+--------------------------------------------------
+
+Automation Ideas
+
+1. Auto email after student registration
+2. Auto update remaining seats
+3. Notify faculty when course is full
+4. Generate student ID automatically
+5. Send fee deadline reminders
+
+--------------------------------------------------
+
+Flow Diagram
+
+Student Registration Created
+↓
+Flow Trigger Starts
+↓
+Check Student Email
+↓
+Send Confirmation Email
+↓
+End
+
+--------------------------------------------------
+
+Manual vs Automated Process
+
+Manual Process
+Staff manually sends fee reminders.
+
+Problems
+- Time consuming
+- Human errors
+- Missed reminders
+
+Automated Process
+Salesforce automatically sends reminders before due date.
+
+Benefits
+- Saves time
+- Faster communication
+- Better productivity
+
+--------------------------------------------------
+
+Reflection
+
+Automation helps companies:
+- Save time
+- Reduce errors
+- Improve productivity
+- Maintain consistency
+- Automate repetitive tasks
+
+--------------------------------------------------
+
+Reflective Questions
+
+Why do companies automate workflows?
+To improve efficiency and reduce manual work.
+
+What problems happen with manual processes?
+Delays, mistakes, repeated work.
+
+Difference between Screen Flow and Record Triggered Flow?
+Screen Flow needs user interaction. Record Triggered Flow runs automatically.
+
+Why is no-code automation powerful?
+Businesses can automate without coding knowledge.
+
+When should automation be avoided?
+When human approval or decision-making is important.
+
+How does automation improve consistency and productivity?
+Automation performs tasks accurately and quickly every time.
+
+
+screnshots
+
+https://1drv.ms/i/c/fdaaf176355ac690/IQAV5a5rjSLVQatxf7KsjTd7AZzdgR2T3iKlBG-JZqAsLB8?e=4vAofA
