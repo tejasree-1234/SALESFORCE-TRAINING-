@@ -1,0 +1,172 @@
+Day 5 – Apex Introduction
+
+What is Apex?
+
+Apex is a programming language developed by Salesforce.
+It is used to add custom business logic, automation, database operations, and integrations inside Salesforce applications.
+
+Apex helps developers perform tasks that cannot be handled completely using clicks, flows, or configuration.
+------------------------------------------------------------
+  
+Difference Between Flow and Apex
+Flow
+* No-code or low-code automation tool
+* Easy to create using clicks
+* Best for simple business processes
+* Faster to develop
+* Requires less technical knowledge
+* Limited customization
+
+Apex
+* Programming language in Salesforce
+* Used for complex business logic
+* Requires coding knowledge
+* Supports advanced customization
+* Used for integrations and calculations
+* More flexible than flows
+-----------------------------------------------------------------------
+
+Difference Between Configuration and Coding
+
+Configuration
+
+* Uses clicks and setup tools
+* Easy to maintain
+* Faster for standard requirements
+* Requires less technical skills
+* Suitable for simple automation
+
+Coding
+
+* Uses programming languages like Apex
+* Needed for advanced requirements
+* Supports complex logic
+* Provides high flexibility
+* Requires developer knowledge
+
+----------------------------------------------------------
+
+Real Examples Where Apex Is Needed
+
+Example 1 – Complex Fee Calculation
+
+A university system may calculate student fees based on scholarship, attendance, course type, and semester performance.
+
+Why Apex?
+Because the logic becomes too complex for normal flows.
+
+------------------------------------------------------------------------
+Example 2 – Payment Gateway Integration
+
+A college portal may connect with external payment systems for online fee payments.
+
+Why Apex?
+External API integrations require custom programming.
+
+---------------------------------------------------------------------------
+
+Example 3 – Advanced Eligibility Logic
+
+Student placement eligibility may depend on attendance, marks, certifications, and project completion.
+
+Why Apex?
+Complex conditions and validations require custom code.
+
+--------------------------------------------------------------------------------
+
+Integrated College Management System Design
+
+CRM
+
+The CRM stores and manages student-related information.
+
+Objects
+
+* Student
+* Course
+* Faculty
+* Attendance
+* Fees
+
+Relationships
+
+* Student ↔ Course
+* Faculty ↔ Course
+
+Validation Rules
+
+* Email field cannot be empty
+* Attendance must be between 0 and 100
+
+Formula Fields
+
+* Remaining Seats = Total Seats - Enrolled Students
+
+Flow
+
+* Send automatic notification after student registration
+* Auto-create student welcome email
+
+Apex
+
+* Complex eligibility calculation
+* Payment integration
+* Advanced business rules
+
+---------------------------------------------------------------------------------
+
+Pseudocode Examples
+
+Example 1
+IF seats are full
+THEN block registration
+Example 2
+IF attendance < 75%
+THEN notify student
+Example 3
+IF fee payment is pending
+THEN restrict exam registration
+----------------------------------------------------------------
+Reflection
+
+Enterprise systems cannot depend only on clicks and configuration because business requirements become more complex over time.
+
+Some processes require:
+
+* Advanced calculations
+* External integrations
+* Complex decision-making
+* High customization
+
+Programming languages like Apex provide flexibility, scalability, and better control for handling real-world enterprise problems.
+
+----------------------------------------------------------------------------------------
+
+Reflective Questions
+
+1. Why is Apex needed if Salesforce already has Flows?
+
+Apex is needed for complex business logic and integrations that flows cannot fully handle.
+
+2. When should developers prefer no-code solutions?
+
+Developers should use no-code solutions for simple and standard automation because they are faster and easier to maintain.
+
+3. What problems require custom programming?
+
+Complex calculations, external integrations, and advanced validations require programming.
+
+4. Why is business logic important in enterprise systems?
+
+Business logic ensures that company rules and processes are followed correctly.
+
+5. Why should developers avoid unnecessary coding?
+
+Unnecessary coding increases maintenance effort and system complexity.
+
+6. How does programming increase flexibility?
+
+Programming allows developers to create custom solutions for unique business requirements.
+ScreenShots
+  https://1drv.ms/i/c/fdaaf176355ac690/IQCWq8HXCOndR7t0IKN7Rrr1AWih4FrDWW1rTIDRHIy7w-Y?e=wjrW64
+  https://1drv.ms/i/c/fdaaf176355ac690/IQDg_uDEAXrgQZ59QPESQN1rAejVxjBShe-y0bYVEbIvpoI?e=u9IWie
