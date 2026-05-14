@@ -1,0 +1,151 @@
+Day 6 – Triggers & SOQL
+1. What is SOQL?
+
+SOQL (Salesforce Object Query Language) is used to retrieve data from Salesforce objects.
+It is similar to SQL but designed specifically for Salesforce.
+
+Example:
+- Find all students
+- Find courses handled by a faculty
+- Find students with low attendance
+
+--------------------------------------------------
+
+2. What is an Apex Trigger?
+
+An Apex Trigger is a piece of code that runs automatically when data changes in Salesforce.
+
+Triggers can run:
+- Before inserting records
+- After updating records
+- Before deleting records
+- After deleting records
+
+Triggers help automate business processes.
+
+Example:
+- After a student registers, automatically send a welcome email.
+
+--------------------------------------------------
+
+3. Difference Between Flow and Trigger
+
+Flow:
+- Declarative (No code)
+- Easy to build
+- Good for simple automation
+- Faster development
+- Used by admins
+
+Apex Trigger:
+- Programmatic (Code)
+- More powerful
+- Good for complex logic
+- More control
+- Used by developers
+
+--------------------------------------------------
+
+Difference Between Before Trigger and After Trigger
+
+Before Trigger:
+- Runs before saving data
+- Used for validation
+- Can modify record values
+- Faster
+
+After Trigger:
+- Runs after saving data
+- Used for related actions
+- Used for notifications and updates
+
+--------------------------------------------------
+
+4. Trigger Use Cases (College Management System)
+
+1. Student Registration
+Trigger Event: After student registration
+Action: Send welcome email to student.
+
+2. Course Capacity Full
+Trigger Event: After course reaches maximum students
+Action: Notify faculty that course is full.
+
+3. Low Attendance Warning
+Trigger Event: After attendance update
+Action: Send warning message if attendance drops below 75%.
+
+4. Fee Payment Completed
+Trigger Event: After fee payment record update
+Action: Update student status as “Fees Cleared”.
+
+5. Exam Result Published
+Trigger Event: After marks are entered
+Action: Send result notification to students.
+
+--------------------------------------------------
+
+5. Query Examples
+
+- Find all students in Course A.
+- Find all courses handled by Faculty X.
+- Find students with attendance below 75%.
+- Find students who did not pay fees.
+- Find faculty teaching more than 3 courses.
+- Find courses starting this month.
+
+--------------------------------------------------
+
+6. Reflection
+
+Why do enterprise systems react automatically to data changes?
+
+Enterprise systems handle large amounts of data and users.
+Automatic reactions help businesses save time, reduce manual work, improve accuracy, and respond quickly to important events.
+
+Example:
+- Automatically sending alerts
+- Updating records instantly
+- Notifying users immediately
+
+This makes systems faster, smarter, and more efficient.
+
+--------------------------------------------------
+
+Reflective Questions
+
+1. Why do systems need triggers?
+
+Triggers help systems respond automatically when data changes.
+
+2. Difference between polling and event-driven systems?
+
+- Polling checks repeatedly for changes.
+- Event-driven systems react immediately when an event happens.
+
+Event-driven systems are faster and more efficient.
+
+3. Why are database queries important?
+
+Queries help retrieve required information from databases quickly and efficiently.
+
+4. When should Flows be preferred over Triggers?
+
+Flows should be used for simple automation that does not require complex coding.
+
+5. What problems happen if automation logic becomes too complex?
+
+- Slow system performance
+- Difficult maintenance
+- More bugs and errors
+- Harder debugging
+
+6. Why should developers think carefully before automating actions?
+
+Incorrect automation can create wrong updates, duplicate actions, or performance issues.
+Developers must ensure automation works correctly and efficiently
+  
+  screen shots
+  https://1drv.ms/i/c/fdaaf176355ac690/IQB3cQWJiYGERI7d1513Vd8SATzhbTPYUe0AQB9uDITec10?e=UXJ5bW
+  https://1drv.ms/i/c/fdaaf176355ac690/IQCx7ZxPqhpKRbCme7fl4VfiAfqToOv-WRFK2waPPiWI87M?e=5XHim1
+  
