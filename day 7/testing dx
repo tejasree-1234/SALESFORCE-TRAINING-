@@ -1,0 +1,244 @@
+```text
+Salesforce Summer Program – Day 7
+Testing, Async Apex & Salesforce DX
+
+--------------------------------------------------
+
+1. Why Testing Matters
+
+Testing is very important in enterprise systems because thousands of users depend on the software every day. Small bugs can create major business problems.
+
+Testing helps developers:
+- Prevent bugs
+- Ensure correct business logic
+- Maintain system reliability
+- Avoid data corruption
+- Improve software quality
+
+In Salesforce, testing is mandatory before deploying Apex code to production.
+
+Without testing:
+- Wrong data may be stored
+- Duplicate records may occur
+- Triggers may fail
+- Automation may stop working
+- Business processes may break
+
+--------------------------------------------------
+
+2. What is Asynchronous Apex?
+
+Asynchronous Apex allows tasks to run in the background instead of immediately.
+
+It is useful for:
+- Large data processing
+- Sending bulk emails
+- Report generation
+- External system integration
+- Long-running operations
+
+Types of Async Apex:
+- Future Methods
+- Queueable Apex
+- Batch Apex
+- Scheduled Apex
+
+Difference:
+- Synchronous = runs immediately
+- Asynchronous = runs later in background
+
+Async processing improves performance and user experience.
+
+--------------------------------------------------
+
+3. What is Salesforce DX?
+
+Salesforce DX is a modern development workflow for Salesforce developers.
+
+It provides:
+- Source-driven development
+- Better team collaboration
+- Integration with GitHub
+- CLI-based development
+- Easier deployment and testing
+
+Main tools:
+- Salesforce CLI
+- VS Code
+- GitHub
+- Scratch Orgs
+
+Benefits:
+- Faster development
+- Version control
+- Better teamwork
+- Easier project management
+
+--------------------------------------------------
+
+4. Complete System Workflow
+
+Example: College Management System
+
+Step 1 – Student Registration
+A student submits the registration form.
+
+Step 2 – Validation Rules
+Validation Rules check:
+- Email format
+- Required fields
+- Duplicate entries
+- Age validation
+
+If validation fails, registration is stopped.
+
+Step 3 – Flow Automation
+A Flow automatically:
+- Sends confirmation email
+- Creates welcome notification
+- Updates registration status
+
+Step 4 – Apex Trigger
+An Apex Trigger:
+- Updates course seat count
+- Updates student statistics
+- Prevents overbooking
+
+Step 5 – Formula Fields
+Formula Fields automatically calculate:
+- Remaining seats
+- Attendance percentage
+- Student grade status
+
+Step 6 – Platform Events
+Platform Events send notifications to connected systems when important events occur.
+
+Example:
+- New student registered
+- Course full notification
+
+Step 7 – Database Storage
+Salesforce stores:
+- Student records
+- Course records
+- Attendance data
+- Registration history
+
+Step 8 – Reports & Dashboards
+Reports help administrators analyze:
+- Student count
+- Course popularity
+- Attendance trends
+- Registration statistics
+
+--------------------------------------------------
+
+5. Important Test Cases
+
+1. Invalid Email Testing
+Problem if not tested:
+- Wrong communication
+- Failed notifications
+
+2. Duplicate Registration Testing
+Problem if not tested:
+- Duplicate student records
+- Incorrect analytics
+
+3. Course Overbooking Testing
+Problem if not tested:
+- Exceeding seat limits
+- System inconsistency
+
+4. Attendance Calculation Testing
+Problem if not tested:
+- Incorrect attendance percentage
+- Wrong student evaluation
+
+5. Trigger Execution Testing
+Problem if not tested:
+- Automation failure
+- Incorrect updates in database
+
+--------------------------------------------------
+
+6. Async Processing Examples
+
+Example 1 – Sending Bulk Emails
+Background processing prevents slow system response.
+
+Example 2 – Large Report Generation
+Reports can be generated without blocking users.
+
+Example 3 – Data Synchronization
+Data can sync with external systems in the background.
+
+--------------------------------------------------
+
+7. Developer Workflow Reflection
+
+Professional developers use GitHub, DX, and CLI because enterprise projects are large and handled by teams.
+
+Why GitHub?
+- Version control
+- Team collaboration
+- Backup of code
+- Change tracking
+
+Why Salesforce DX?
+- Modern development workflow
+- Source-driven development
+- Better deployment process
+
+Why CLI?
+- Faster development
+- Automation support
+- Easy project management
+- Better productivity
+
+Browser-only development is difficult for large enterprise applications because:
+- Changes are harder to track
+- Team collaboration becomes difficult
+- Deployment is slower
+- Version control is missing
+
+Structured workflows improve:
+- Reliability
+- Team productivity
+- Software quality
+- Deployment safety
+
+--------------------------------------------------
+
+Revision Answers
+
+1. Why are tests important in enterprise systems?
+Tests prevent bugs and ensure reliability.
+
+2. What problems happen without testing?
+Data corruption, automation failures, and system errors.
+
+3. Why is asynchronous processing useful?
+It improves performance by running long tasks in the background.
+
+4. Difference between synchronous and asynchronous?
+Synchronous runs immediately; asynchronous runs later.
+
+5. Why do developers use version control?
+To track and manage code changes safely.
+
+6. Why is GitHub important?
+It supports collaboration and code management.
+
+7. Why is DX useful for teams?
+It provides a structured and modern workflow.
+
+8. How do Flows, Triggers, and Validation Rules work together?
+Validation Rules verify data, Flows automate processes, and Triggers handle advanced logic.
+
+9. Why should business logic be tested carefully?
+Incorrect business logic can create major business problems.
+
+10. Why is developer workflow important in large teams?
+It improves collaboration, deployment, and project management.
+```
